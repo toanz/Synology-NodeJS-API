@@ -1,4 +1,7 @@
 # Synology-NodeJS-API
+
+* This package is a fork from https://www.npmjs.com/package/synology-api *
+
 A NodeJS API to communicate with your Synology NAS
 
 You can :
@@ -10,7 +13,7 @@ Installation
 $ npm install synology-node-api --save
 ```
 
-Create your Synology Object
+Create your Synology object
 ```javascript
 var Syno = require('synology-node-api');
 var syno = new Syno(
