@@ -1,6 +1,6 @@
 # Synology-NodeJS-API
 
-** This package is a fork from https://www.npmjs.com/package/synology-api **
+**This package is a fork from https://www.npmjs.com/package/synology-api**
 
 A NodeJS API to communicate with your Synology NAS
 
