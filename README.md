@@ -6,13 +6,13 @@ You can :
 - Communicate with DownloadStation application (go to wiki for more informations)
 
 Installation
-```
-npm install synology-node-api --save
+```shell
+$ npm install synology-node-api --save
 ```
 
 Create your Synology Object
 ```javascript
-const Syno = require('synology-node-api');
+var Syno = require('synology-node-api');
 var syno = new Syno(
     protocol = "HTTPS",
     address = "192.168.0.0",
