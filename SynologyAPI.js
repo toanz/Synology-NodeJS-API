@@ -1,5 +1,4 @@
 const Utils = require("./Modules/Utils/GenericUtils.js");
-const colors = require('colors');
 const AuthClass = require("./Modules/Auth/auth.js")
 const DownloadStationClass = require("./Modules/DownloadStation/ds.js")
 
@@ -8,7 +7,7 @@ const DownloadStationClass = require("./Modules/DownloadStation/ds.js")
 /**
  * Synology Settings
  * @param {String} protocol / HTTP by default
- * @param {String} address 
+ * @param {String} address
  * @param {String} port / 5000 by default
  * @param {String} username
  * @param {String} password
